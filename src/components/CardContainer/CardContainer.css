@@ -1,9 +1,0 @@
-.card-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: radial-gradient(circle, #0ae5b5, #29b18f, #2f806a, #2b5146, #212725);
-}

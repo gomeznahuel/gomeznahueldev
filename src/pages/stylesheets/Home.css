@@ -1,0 +1,62 @@
+@media (min-width: 1400px) {
+  .HomeTextContainer {
+    width: 34%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .HomeTextContainer {
+    width: 44%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .HomeTextContainer {
+    width: 52%;
+  }
+}
+
+@media (max-width: 992px) {
+  .HomeTextContainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .HomeTextContainer {
+    width: 80%;
+  }
+}
+
+.HomeDarkMode {
+  background-color: #333;
+  color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+}
+
+.HomeLightMode {
+  background-color: #f7f7f7;
+  color: #333;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+}
+
+.HomeLightMode:hover {
+  background-color: #333;
+  color: #f7f7f7;
+}
+
+.HomeDarkMode:hover {
+  background-color: #f7f7f7;
+  color: #333;
+  border: 1px solid #333;
+}
