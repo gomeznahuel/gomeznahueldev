@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import { MyContext } from "./context/MyContext";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import ResumeData from "./components/ResumeData/ResumeData";
 
 export default function App() {
   const { style, setDarkMode } = useContext(MyContext);
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/resume" element={<ResumeData />} />
               <Route path="*" element={<div>404</div>} />
             </Routes>
           </main>

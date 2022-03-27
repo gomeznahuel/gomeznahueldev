@@ -21,9 +21,15 @@ const MyContextProvider = ({ children }) => {
     localStorage.setItem("darkMode", !darkMode);
   };
 
+  const cardDarkMode = {
+    backgroundColor: darkMode ? "#333" : "#fff",
+    color: darkMode ? "#fff" : "#333",
+    transition: "background-color 0.5s ease-in-out",
+  };
+
   return (
     <MyContext.Provider
-      value={{ style, darkMode, setDarkMode, toggleDarkMode }}
+      value={{ style, darkMode, cardDarkMode, setDarkMode, toggleDarkMode }}
     >
       {children}
     </MyContext.Provider>

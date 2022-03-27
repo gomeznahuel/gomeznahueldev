@@ -26,17 +26,17 @@ const Navbar = () => {
     <nav className="Navbar" style={NavbarStyle}>
       <ul>
         <li>
-          <NavLink style={NavLinkStyle} to="/">
+          <NavLink className='NavLink' style={NavLinkStyle} to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink style={NavLinkStyle} to="/projects">
+          <NavLink className='NavLink' style={NavLinkStyle} to="/projects">
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink style={NavLinkStyle} to="/contact">
+          <NavLink className='NavLink' style={NavLinkStyle} to="/contact">
             Contact
           </NavLink>
         </li>

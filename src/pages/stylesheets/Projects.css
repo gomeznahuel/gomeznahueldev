@@ -1,0 +1,79 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .projects-container {
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+.project-container {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.project-container .project-description,
+.project-container h2 {
+  color: #000;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-link {
+  margin: 0 0.7rem;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.project-link:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.project-description {
+  margin-top: 0.8rem;
+}
+
+.ClipLoader {
+  text-align: center;
+}
+
+.loading-spinnner {
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}

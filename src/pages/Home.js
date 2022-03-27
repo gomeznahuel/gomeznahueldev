@@ -29,7 +29,7 @@ const Home = () => {
           my first project, a website for a local company.
         </p>
       </div>
-      <a href="https://drive.google.com/file/d/1fx2MhHGGxkIYdR39ZnNxlYGHG9PriX0i/view?usp=sharing" target="blank" className={darkMode ? "HomeLightMode" : "HomeDarkMode"} >
+      <a href="https://drive.google.com/file/d/10rDmD322a12syfTnt2g9sipfxoGU9gh1/view?usp=sharing" target="blank" className={darkMode ? "HomeLightMode" : "HomeDarkMode"}>
         See my resume
       </a>
     </div>

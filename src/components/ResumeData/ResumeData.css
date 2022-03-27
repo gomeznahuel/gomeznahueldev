@@ -1,0 +1,43 @@
+.ResumeData {
+  background-color: #494e5f;
+  width: 42%;
+  min-height: 100vh;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  color: #ffe7d4;
+}
+
+.ResumeTitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.ResumeSubtitle {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.PersonalProfile,
+.skillsAndAbilities,
+.languagesAndTools,
+.ContactInformation {
+  margin-top: 2rem;
+}
+
+.languagesAndTools a {
+  color: #ffe7d4;
+}
+
+.ContactInformation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ContactInformation a {
+  color: #ffe7d4;
+}
