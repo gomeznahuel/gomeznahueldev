@@ -4,9 +4,6 @@ import "./stylesheets/Projects.css";
 // Context.
 import { MyContext } from "../context/MyContext";
 
-// Image demo
-import img from "../assets/img/project-demo.png";
-
 // React spinners.
 import ClipLoader from "react-spinners/ClipLoader";
 
@@ -14,70 +11,15 @@ const Projects = () => {
   const [Loading, setLoading] = useState(true);
   const { cardDarkMode } = useContext(MyContext);
 
+  // All projects.
   const projects = [
     {
-      title: "Project 1",
+      title: "Music Store",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 2",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 3",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 4",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 5",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 6",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 7",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
-    },
-    {
-      title: "Project 8",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: img,
-      link: "https://www.vercel.com/",
-      github: "https://www.github.com/almanoduerme",
+        "Aplicación web creada con ReactJS. En la misma se utiliza Firebase para almacenar el stock de productos.",
+      image: "/images/MusicStore.png",
+      link: "https://coderhouse-react-six.vercel.app/",
+      github: "https://github.com/almanoduerme/coderhouse-react/",
     },
   ];
 
