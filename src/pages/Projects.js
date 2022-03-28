@@ -22,6 +22,13 @@ const Projects = () => {
       github: "https://github.com/almanoduerme/coderhouse-react/",
     },
     {
+      title: "Color Flipper App",
+      description: "El color del fondo de la página cambia al hacer click en el botón. El resultado es un color aleatorio.",
+      image: "/images/ColorFlipperApp.png",
+      link: "https://colorflipperapp.vercel.app/",
+      github: "https://github.com/almanoduerme/colorflipperapp",
+    },
+    {
       title: "Form Validation",
       description:
         "Aplicación web creada con ReactJS. Se utiliza Formik con Yup para validar los campos.",
