@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { MyContext } from "../context/MyContext";
+import cv from "../cv.pdf";
 import "./stylesheets/Home.css";
 
 const Home = () => {
@@ -29,8 +30,8 @@ const Home = () => {
           my first project, a website for a local company.
         </p>
       </div>
-      <a href="https://drive.google.com/file/d/10rDmD322a12syfTnt2g9sipfxoGU9gh1/view?usp=sharing" target="blank" className={darkMode ? "HomeLightMode" : "HomeDarkMode"}>
-        See my resume
+      <a href={cv} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank">
+        Download my resume
       </a>
     </div>
   );
