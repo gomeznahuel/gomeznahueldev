@@ -35,9 +35,9 @@ const Home = () => {
           desarrollador web dentro del mundo IT.
         </p>
       </div>
-      <a href={resume} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank" >
-        Download my resume
-      </a>
+      <motion.a href={resume} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank" initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.5}}>
+        Descargar CV
+      </motion.a>
     </motion.div>
   );
 };
