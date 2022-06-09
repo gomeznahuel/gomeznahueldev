@@ -14,6 +14,27 @@ const Projects = () => {
   // All projects.
   const projects = [
     {
+      title: "Rick and Morty",
+      description: "Esta aplicación es un ejemplo simple de cómo usar axios para realizar una solicitud a un servidor.",
+      image: "/images/RickAndMorty.png",
+      link: "https://rickandmorty-fawn-five.vercel.app/",
+      github: "https://github.com/almanoduerme/rickandmorty",
+    },
+    {
+      title: "Github User Finder",
+      description: "Se trata de una aplicación que permite buscar un usuario en Github y obtener su información.",
+      image: "/images/GithubUserFinder.png",
+      link: "https://githubuserfinder-tawny.vercel.app/",
+      github: "https://github.com/almanoduerme/githubuserfinder",
+    },
+    {
+      title: "Lyrics Finder",
+      description: "Aplicación web hecha en React. Es un buscador de letras de canciones. Consumí una API de Lyrics OVH.",
+      image: "/images/LyricsFinder.png",
+      link: "https://lyricsfinder-chi.vercel.app/",
+      github: "https://github.com/almanoduerme/lyricsfinder",
+    },
+    {
       title: "Music Store",
       description:
         "Aplicación web creada con ReactJS. En la misma se utiliza Firebase para almacenar el stock de productos.",

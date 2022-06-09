@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { MyContext } from "../context/MyContext";
-import cv from "../cv.pdf";
+import resume from "../assets/resume/resume.pdf";
 import "./stylesheets/Home.css";
 
 const Home = () => {
@@ -23,14 +23,18 @@ const Home = () => {
   return (
     <div style={HomeStyle} className="Home">
       <div style={HomeTextContainer} className="HomeTextContainer">
-        <h1>Hi, I'm Nahuel Alfredo Gómez</h1>
+        <h1>¡Hola! Mi nombre es Nahuel</h1>
         <p>
-          I'm a web developer based in Buenos Aires, Argentina. I'm currently
-          looking for my first job as a Web Developer. I'm currently working on
-          my first project, a website for a local company.
+          Soy Desarrollador Frontend. He trabajado de manera independiente
+          utilizando tecnologías como React, Next Js, JavaScript, Node, Express
+          CSS, HTML, etc.
+        </p>
+        <p>
+          Actualmente me encuentro en la búsqueda de mi primer trabajo como
+          desarrollador web dentro del mundo IT.
         </p>
       </div>
-      <a href={cv} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank">
+      <a href={resume} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank" >
         Download my resume
       </a>
     </div>

@@ -16,12 +16,10 @@ const Contact = () => {
   return (
     <div className="ContactContainer">
       <div className="Contact">
-        <h1>WANNA GET IN TOUCH?</h1>
+        <h1>¿Te gustaría contactarte conmigo?</h1>
         <p>
-          I am always open to discussing new projects, and opportunities to work
-          with you.
+        Estoy dispuesto a conversar sobre nuevos proyectos y oportunidades de trabajo.
         </p>
-        <p> Feel free to reach out to me at: </p>
         <p>
           <a href="mailto:ngomezdw@gmail.com" style={linkDarkMode}>
             ngomezdw@gmail.com
