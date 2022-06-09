@@ -1,6 +1,7 @@
-import React, { useContext } from "react";
-import "./stylesheets/Contact.css";
+import { useContext } from "react";
 import { MyContext } from "../context/MyContext";
+import { motion } from "framer-motion"
+import "./stylesheets/Contact.css";
 
 const Contact = () => {
   const { darkMode } = useContext(MyContext);
@@ -14,7 +15,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="ContactContainer">
+    <motion.div className="ContactContainer" initial={{opacity: 0}} animate={{opacity: 1}} duration={2}>
       <div className="Contact">
         <h1>¿Te gustaría contactarte conmigo?</h1>
         <p>
@@ -27,7 +28,7 @@ const Contact = () => {
         </p>
         <p>Buenos Aires, Argentina</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

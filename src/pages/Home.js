@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { MyContext } from "../context/MyContext";
+import { motion } from "framer-motion"
 import resume from "../assets/resume/resume.pdf";
 import "./stylesheets/Home.css";
 
@@ -21,7 +22,7 @@ const Home = () => {
   const { darkMode } = useContext(MyContext);
 
   return (
-    <div style={HomeStyle} className="Home">
+    <motion.div style={HomeStyle} className="Home" initial={{opacity: 0}} animate={{opacity: 1}} duration={2}>
       <div style={HomeTextContainer} className="HomeTextContainer">
         <h1>¡Hola! Mi nombre es Nahuel</h1>
         <p>
@@ -37,7 +38,7 @@ const Home = () => {
       <a href={resume} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank" >
         Download my resume
       </a>
-    </div>
+    </motion.div>
   );
 };
 
