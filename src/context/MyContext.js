@@ -28,9 +28,7 @@ const MyContextProvider = ({ children }) => {
   };
 
   return (
-    <MyContext.Provider
-      value={{ style, darkMode, cardDarkMode, setDarkMode, toggleDarkMode }}
-    >
+    <MyContext.Provider value={{ style, darkMode, cardDarkMode, setDarkMode, toggleDarkMode }}>
       {children}
     </MyContext.Provider>
   );

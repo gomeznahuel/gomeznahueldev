@@ -1,4 +1,4 @@
-import React from "react";
+import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
@@ -6,10 +6,10 @@ import App from "./App";
 import { MyContextProvider } from "./context/MyContext";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <MyContextProvider>
       <App />
     </MyContextProvider>
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById("root")
 );
