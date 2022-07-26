@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Modal } from "../pages/Modal";
 import Navbar from "../components/Navbar/Navbar";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
@@ -12,7 +13,8 @@ export const Router = () => {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Modal />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<ResumeData />} />

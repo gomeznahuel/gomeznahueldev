@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="Navbar" style={NavbarStyle}>
       <ul>
         <li>
-          <NavLink className="NavLink" style={NavLinkStyle} to="/">
+          <NavLink className="NavLink" style={NavLinkStyle} to="/home">
             Home
           </NavLink>
         </li>

@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <footer className="footer" style={FooterStyle}>
-      <a style={LinkStyle} href="https://www.github.com/almanoduerme" target="blank" >
+      <a style={LinkStyle} href="https://www.github.com/gomeznahuel" target="blank" >
         <GrGithub />
       </a>
       <a style={LinkStyle} href="https://www.linkedin.com/in/gomeznahuel" target="blank">
