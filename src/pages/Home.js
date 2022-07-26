@@ -22,34 +22,22 @@ const Home = () => {
   const { darkMode } = useContext(MyContext);
 
   return (
-    <motion.div
-      style={HomeStyle}
-      className="Home"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      duration={2}
-    >
+    <motion.div style={HomeStyle} className="Home" initial={{ opacity: 0 }} animate={{ opacity: 1 }} duration={2} >
       <div style={HomeTextContainer} className="HomeTextContainer">
         <h1>¡Hola! Mi nombre es Nahuel</h1>
-        <p>
-          Soy Desarrollador Frontend. He trabajado de manera independiente
-          utilizando tecnologías como React, Next Js, JavaScript, Node, Express
-          CSS, HTML, etc.
+        <p style={{ marginBottom: "10px" }}>
+          Soy Desarrollador Frontend con conocimientos en Backend. Actualmente
+          busco formar parte de un equipo en el que pueda aportar soluciones,
+          aprender tecnologías nuevas y mejorar mis habilidades técnicas.
         </p>
         <p>
-          Actualmente me encuentro en la búsqueda de mi primer trabajo como
-          desarrollador web dentro del mundo IT.
+          Me considero una persona responsable, sociable, amable y de rápido
+          aprendizaje. Poseo un nivel de inglés intermedio, el cual utilizo
+          diariamente para leer documentación técnica y desarrollar
+          aplicaciones.
         </p>
       </div>
-      <motion.a
-        href={resume}
-        download
-        className={darkMode ? "HomeLightMode" : "HomeDarkMode"}
-        target="blank"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 0.5 }}
-      >
+      <motion.a href={resume} download className={darkMode ? "HomeLightMode" : "HomeDarkMode"} target="blank" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }} >
         Descargar CV
       </motion.a>
     </motion.div>
